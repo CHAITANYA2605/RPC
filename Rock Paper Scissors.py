@@ -5,7 +5,7 @@ def rpc():
     pc=random.choice(['r','p','s'])
 
     if player==pc:
-        return 'it\'s a draw'
+        return 'its a draw'
     
     if won(player,pc):
         return 'you won'
